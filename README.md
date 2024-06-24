@@ -20,7 +20,7 @@ root@h:cd ~/Downloads$chmod 755 install_SDL2.sh
 root@h:cd ~/Downloads$sudo ./install_SDL2.sh
 
 # Play the game
- - clone the [github repository](https://github.com/Susiniosgit/3D_Maze.git)
+ - clone the [github repository](https://github.com/reyzmerly/Maze-2D-MVPz.git)
  - Compile all .c files in the maze directory:
   ```
   gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL_image -o maze
@@ -34,10 +34,6 @@ root@h:cd ~/Downloads$sudo ./install_SDL2.sh
  left arrow key - to rotate the player in counter clock wise direction
  right arrow key - to rotate the player in clock wise direction
 
-# Flow chart
-![Capture](https://user-images.githubusercontent.com/88714347/171421868-d6a7a3d6-6acd-495e-9506-7ab381bba5a4.JPG)
-# project Demo
- [![3D Maze](https://img.youtube.com/vi/y5FlT2oApag/0.jpg)](https://www.youtube.com/watch?v=y5FlT2oApag)
 # Authors
 - reyzmerly(https://github.com/reyzmerly)
 
